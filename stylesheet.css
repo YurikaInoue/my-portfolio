@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration:none
+}
+
+body {
+  box-sizing: border-box;
+  /*言語で分ける*/
+  font-family: serif;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background-color: rgba(226, 194, 200, 0.801);
+  position: fixed;
+  height: 60px;
+  width: 100%;
+}
+
+.header-nav {
+  float: right;
+  margin-right: 5%;
+  /*background-color: pink;*/
+  font-size: 18px;
+
+}
+
+.nav {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+header a {
+  /*text-decoration: none;*/
+  margin-right: 30px;
+  background-color: rgba(226, 160, 171, 0.5);
+  color: #fff;
+}
+
+a:hover {
+  background-color:  rgb(226, 160, 171);
+}
+
+#lang {
+  background-color: rgba(70, 37, 37, 0.342);
+  cursor: pointer;
+}
+
+#lang:hover {
+  background-color: rgba(70, 37, 37, 0.596);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  background-color: rgb(226, 194, 200);
+  font-size: 15px;
+  color: #fff;
+}
+
+/*   First block   */
+#first-block {
+  background-image: url("../images/flower1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title-container {
+  /*text-align: center;*/
+  color: rgb(255, 255, 255);
+  background-color: rgba(231, 188, 195, 0.801);
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.btn {
+  width: 0px;
+  height: 0px;
+  border-top: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid rgba(255, 255, 255, 0.349);
+}
+
+.btn:hover {
+  border-left: 50px solid rgba(255, 255, 255, 0.514);
+  cursor: pointer;
+}
+
+#btn1 {
+  transform:rotate(180deg)
+}
+/*   First block End   */
+
+/*   Second block   */
+#second-block {
+  background-color: rgb(233, 195, 201);
+  padding: 100px;
+  color: #444;
+  /*text-align: center;*/
+}
+
+.section-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  /*text-align: center;*/
+}
+
+#about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /*background-color: blue;*/
+}
+
+.info-card { /*a-tag*/
+  /*background-color: rgb(230, 226, 219);*/
+  background-image: url("../images/back1.jpg");
+  background-size: cover;
+  border-radius: 16px;
+  padding: 30px;
+  height: 280px;
+  width: 25%;
+  /*cursor: pointer;*/
+  color: #444;
+}
+
+.info-text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 8%;
+  background-color: rgba(255, 255, 255, 0.452);
+}
+
+.font-small {
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.493);
+}
+/*   Second block End   */
+
+/*   Third block Start   */
+#third-block {
+  background-color: rgb(207, 147, 157);
+  
+  padding: 100px;
+  color: white;
+}
+
+#event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /*background-color: pink;*/
+}
+
+.event {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 30px 0 20px;
+  width: 100%;
+  /*background-color: blue;*/
+}
+
+.event1 {
+  flex-direction: row-reverse;
+}
+
+.event-info {
+  font-size: 20px;
+  padding: 10px;
+  width: 40%;
+  /*background-color: green;*/
+}
+
+.event-title {
+  font-size: 40px;
+  line-height: 45px;
+  /*background-color: purple;*/
+  margin-bottom: 30px;
+  /*display: inline-block;*/
+}
+
+.event-image {
+  width: 40%;
+  height: 330px;
+}
+/*   Third block End   */
+
+/*Fourth block Start*/
+.fourth-block {
+  padding-top: 60px;
+  background-image: url("../images/hearts.jpg");
+  background-size: cover;
+  height: 700px;
+  color: rgb(87, 46, 46);
+  position: relative;
+  /*text-align: center;*/
+}
+
+#image {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  right: 14%;
+}
+
+/*Fourth block End*/
+
