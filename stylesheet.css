@@ -210,7 +210,7 @@ h3 {
 /*   Third block End   */
 
 /*Fourth block Start*/
-.fourth-block {
+#fourth-block {
   padding-top: 60px;
   background-image: url("./images/hearts.jpg");
   background-size: cover;
